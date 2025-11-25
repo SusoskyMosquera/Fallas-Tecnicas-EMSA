@@ -32,7 +32,6 @@ public class CalculateBalanceDelegate implements JavaDelegate {
             saldoCliente = 0;
         }
 
-        // Establece las variables
         execution.setVariable("estadoPago", estadoPago);
         execution.setVariable("saldoCliente", saldoCliente);
     }
